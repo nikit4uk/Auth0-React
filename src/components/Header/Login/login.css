@@ -1,0 +1,10 @@
+.login-btn{
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 768px){
+    .login-btn{
+        margin-bottom: 5px;
+    }
+}

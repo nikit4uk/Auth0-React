@@ -1,0 +1,19 @@
+header{
+    background-color: #eee;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 24px;
+}
+
+@media screen and (max-width: 768px){
+    .btns-wrap{
+        display: flex;
+        flex-direction: column;
+    }
+}
